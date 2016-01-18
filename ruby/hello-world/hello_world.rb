@@ -1,7 +1,6 @@
-#!/usr/bin/env ruby
 class HelloWorld
-  def hello(name = 'World')
-    print "Hello, " + name + "!"
+  def self.hello(name = "World")
+    "Hello, " + name + "!"
   end
 end
 
