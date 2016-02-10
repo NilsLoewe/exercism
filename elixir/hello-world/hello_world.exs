@@ -15,9 +15,7 @@ defmodule HelloWorld do
   # Hint: look into argument defaults here:
   # http://elixir-lang.org/getting-started/modules.html#default-arguments
 
-  def hello(name) do
-
-    "Your implementation goes here"
-
+  def hello(name \\ "World") do
+    "Hello, " <> name <> "!"
   end
 end
