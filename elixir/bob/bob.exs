@@ -1,16 +1,10 @@
 defmodule Bob do
   def hey(input) do
-
-    question_reply = "Sure."
-    yell_reply     = "Whoa, chill out!"
-    nothing_reply  = "Fine. Be that way!"
-    anything_reply = "Whatever."
-
     cond do
-      String.ends_with?(input, "?") == true -> question_reply
-      String.strip(input) == "" -> nothing_reply
-      check_upcase(input) -> yell_reply
-      input -> anything_reply
+      String.ends_with?(input, "?") == true -> "Sure."
+      String.strip(input) == ""             -> "Fine. Be that way!"
+      check_upcase(input)                   -> "Whoa, chill out!"
+      input                                 -> "Whatever."
     end
   end
 
