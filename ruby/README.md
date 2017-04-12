@@ -20,3 +20,9 @@ Find the difference between the square of the sum and the sum of the squares of 
 
 ### 7. Pangram
 Determine if a sentence is a pangram.
+
+### 8. Sieve
+Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number.
+
+### 9. Roman Numerals
+Write a function to convert from normal numbers to Roman Numerals.
