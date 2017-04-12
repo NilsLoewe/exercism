@@ -1,7 +1,7 @@
 CFLAGS=-std=c99
 CFLAGS += -Wall
 CFLAGS += -Wextra
-CFLAGS += -Werror 
+CFLAGS += -Werror
 CFLAGS += -Wpointer-arith
 CFLAGS += -Wcast-align
 CFLAGS += -Wwrite-strings
@@ -14,6 +14,12 @@ CFLAGS += -Wstrict-prototypes
 CFLAGS += -Wundef
 CFLAGS += -Wold-style-definition
 
+anagram: anagram.out
+	@./anagram.out
+
+anagram.out:
+	@echo Compiling $@
+	@cc src/anagram.c -o anagram.out
 
 test: tests.out
 	@./tests.out
