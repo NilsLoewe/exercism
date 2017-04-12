@@ -17,3 +17,6 @@ Generate an answer given on the factors of a number.
 
 ### 6. Difference Of Squares
 Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
+
+### 7. Pangram
+Determine if a sentence is a pangram.
