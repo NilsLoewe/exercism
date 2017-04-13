@@ -26,3 +26,6 @@ Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number
 
 ### 9. Roman Numerals
 Write a function to convert from normal numbers to Roman Numerals.
+
+### 10. Robot Name
+Manage robot factory settings.
