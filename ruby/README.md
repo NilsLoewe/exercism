@@ -29,3 +29,9 @@ Write a function to convert from normal numbers to Roman Numerals.
 
 ### 10. Robot Name
 Manage robot factory settings.
+
+### 11. nth Prime
+Calculate the nth prime number
+
+### 12; Leap year
+Calculate if a year is a leap year
