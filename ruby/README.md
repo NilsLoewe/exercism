@@ -33,5 +33,8 @@ Manage robot factory settings.
 ### 11. nth Prime
 Calculate the nth prime number
 
-### 12; Leap year
+### 12. Leap year
 Calculate if a year is a leap year
+
+### 13. Number of grains
+Calculate number of grains on a chess field
