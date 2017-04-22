@@ -38,3 +38,6 @@ Calculate if a year is a leap year
 
 ### 13. Number of grains
 Calculate number of grains on a chess field
+
+### 14. Word count
+Count the number of times, a word occures in a string
